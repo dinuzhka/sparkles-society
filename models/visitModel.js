@@ -4,6 +4,7 @@ const visitSchema = mongoose.Schema(
     {
         count: {
             type: Number,
+            unique: true,
             required: true,
             default: 0
         }
